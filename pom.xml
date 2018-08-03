@@ -7,5 +7,6 @@
  
 <modules>
 	<module>aws-lambda-api-gateway</module>
+	<module>aws-lambda-s3event-handler</module>
 </modules>
 </project>
