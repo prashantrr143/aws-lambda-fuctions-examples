@@ -7,6 +7,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.amazonaws.services.lambda.runtime.Context;
+import  org.aws.lambda.api.gateway.TestContext;;
 
 /**
  * A simple test harness for locally invoking your Lambda function handler.
@@ -25,7 +26,7 @@ public class OrderServiceRequestHandlerTest {
         TestContext ctx = new TestContext();
 
         // TODO: customize your context here if needed.
-        ctx.setFunctionName("Your Function Name");
+        ctx.setFunctionName("OrderServiceLambda");
 
         return ctx;
     }
